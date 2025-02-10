@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Docente Paul</string>
+    <string name="nav_header_subtitle">paul@unu.edu.pe</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_inventario">Inventario</string>
+    <string name="menu_reporte">Reporte</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="full_name">NOMBRE</string>
+    <string name="email">EMAIL</string>
+    <string name="confirmar_password">CONFIRMAR PASSWORD</string>
+    <string name="registrar">REGISTRAR</string>
+    <string name="password">PASSWORD</string>
+    <string name="login">Login</string>
+    <string name="tengo_cuenta">¿Ya tienes una cuenta? Ingresa</string>
+    <string name="olvide_registrarme">¿No tienes una cuenta? Registrate</string>
+    <string name="gestion_de_tareas">Gestion de tareas</string>
+    <string name="reporte_incidencias">Reporte e incidencias</string>
+    <string name="inventario_laboratorio">Inventario del laboratorio</string>
+    <string name="añadir_equipo">Añadir o actualizar equipo</string>
+    <string name="laboratorio_medicina">Laboratorio de Medicina Humana</string>
+    <string name="resumen_incidencias">Resumen de incidencias</string>
+    <string name="agregar_reportes">Agregar reporte</string>
+    <string name="login_image_desc">Imagen de login</string>
+    <string name="cerrar_sesion">Cerrar sesion</string>
+    <string name="version">Versión 1.0.1 - Desarrollado by highlander</string>
+    <string name="reporte">Reportes e incidencias</string>
+    <string name="tareas">TAREAS</string>
+
+</resources>

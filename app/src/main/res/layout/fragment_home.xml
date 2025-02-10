@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.home.HomeFragment">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        app:cardElevation="8dp"
+        app:strokeColor="@color/black"
+        app:strokeWidth="0.5dp"
+        app:cardCornerRadius="0dp" >
+
+        <LinearLayout
+            android:layout_margin="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <!-- Barra de texto superior -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@color/homecolor"
+                android:text="@string/laboratorio_medicina"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:padding="8dp" />
+
+            <!-- Texto adicional: Tareas pendientes -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:text="Tareas pendientes"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_marginTop="1dp"
+                android:layout_marginStart="1dp"
+                android:padding="8dp" />
+
+            <!-- Texto adicional: 90% -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:text="90%"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_marginTop="1dp"
+                android:layout_marginStart="1dp"
+                android:padding="8dp" />
+
+            <!-- Texto adicional: 80% -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:text="80%"
+                android:textColor="@color/black"
+                android:textSize="30sp"
+                android:layout_marginTop="1dp"
+                android:layout_marginStart="1dp"
+                android:padding="8dp" />
+
+            <!-- Texto adicional: Ultimos 30 días y 10% separados -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:layout_marginTop="1dp"
+                android:layout_marginStart="1dp"
+                android:padding="8dp">
+
+                <!-- Texto "Últimos 30 días" -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ultimos 30 dias - "
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <!-- Texto "10%" con color diferente -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10%"
+                    android:textColor="@color/rojo_unu"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <!-- Texto adicional: Tareas completadas y su cantidad -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:layout_marginTop="25dp"
+                android:layout_marginStart="1dp"
+                android:padding="8dp">
+
+                <!-- Texto "Tareas completas" -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tareas completadas  :   "
+                    android:textColor="@color/gris_unu"
+                    android:textSize="19sp" />
+
+                <!-- Texto "11" con color diferente -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/homecolor"
+                    android:text="11"
+                    android:textColor="@color/lightGrey"
+                    android:textSize="35sp" />
+
+            </LinearLayout>
+
+            <!-- Texto adicional: Tareas programadas y su cantidad -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:layout_marginTop="25dp"
+                android:layout_marginStart="1dp"
+                android:padding="8dp">
+
+                <!-- Texto "Tareas completas" -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tareas programadas  :   "
+                    android:textColor="@color/gris_unu"
+                    android:textSize="19sp" />
+
+                <!-- Texto "11" con color diferente -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/homecolor"
+                    android:text="20"
+                    android:textColor="@color/lightGrey"
+                    android:textSize="45sp" />
+
+            </LinearLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_gestion_tareas"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:layout_marginTop="30dp"
+                android:text="@string/gestion_de_tareas"
+                android:textColor="@color/black"
+                app:cornerRadius="20dp"
+                app:backgroundTint="@color/purple_200" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_reporte_incidencias"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/reporte_incidencias"
+                android:textColor="@color/black"
+                app:cornerRadius="20dp"
+                app:backgroundTint="@color/verde_unu" />
+
+            <com.google.android.material.button.MaterialButton
+
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/inventario_laboratorio"
+                android:textColor="@color/black"
+                app:cornerRadius="20dp"
+                app:backgroundTint="@color/teal_200" />
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>
